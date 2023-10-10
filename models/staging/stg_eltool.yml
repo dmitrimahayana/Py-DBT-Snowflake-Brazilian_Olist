@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_eltool__orders
+  - name: stg_eltool__order_items
+  - name: stg_eltool__order_payments
+  - name: stg_eltool__products
+  - name: stg_eltool__sellers
