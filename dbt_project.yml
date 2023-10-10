@@ -36,3 +36,5 @@ models:
         materialized: view
       payment:
         materialized: view
+      delivery:
+        materialized: view
