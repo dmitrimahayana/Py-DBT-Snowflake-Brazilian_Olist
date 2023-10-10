@@ -16,13 +16,13 @@ models:
       - name: order_id
         tests:
           - not_null
-#  - name: fact_orders
-#    columns:
-#      - name: order_id
-#        tests:
-#          - not_null
-#  - name: fact_order_payments
-#    columns:
-#      - name: order_id
-#        tests:
-#          - not_null
+  - name: fact_orders
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+  - name: fact_order_payments
+    columns:
+      - name: order_id
+        tests:
+          - not_null
